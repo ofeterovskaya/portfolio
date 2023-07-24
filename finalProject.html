@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<!--Oksana Feterovskaya-->
+<meta charset="UTF-8">
+<title>Web 115 Final Project</title>
+
+</head>
+
+<body>
+<script src="projectJS.js"></script>
+<form id="myForm"  action="">
+	<p>	<input type="text" id="txtName" placeholder="Enter Your Full Name" size="50"/>
+	
+	<p><input type="text" id="txtAdress" placeholder="Enter your adress" size="100"/>
+	
+	<p>	<input type="tel" id="txtPhone" placeholder="Enter your phone number"/>
+	
+	<p>	<input type="text" id="txtEmail" placeholder="Enter your e-mail adress" required size="50" onchange=myFunction()> <span id="emailErr"></span>
+			<br>
+	<div>
+	
+	<p>	
+		<textarea rows="2" cols="100" id="persData" placeholder="Enter your personal information: Date birth, Marriage status, Languages, etc."></textarea>
+			<br>
+	
+	<p>	<textarea rows="2" cols="100" id="txtCareer" placeholder="Enter your career objectives"></textarea>
+			<br>
+	
+	<p>	<textarea rows="2" cols="100" id="txtEducate" placeholder="Enter your educational background"></textarea>
+			<br>
+	
+	<p>	<input type="text" size="50" id="txtExp1" placeholder="Enter your most recent employment experience: Date"/>
+	<p>	<textarea rows="2" cols="100" id="txtName1" placeholder="Describe your most recent employment experience"></textarea>
+			<br>
+	
+	<p>	<input type="text" size="50" id="txtExp2" placeholder="Enter your most recent employment experience: Date"/>
+	<p>	<textarea rows="2" cols="100" id="txtName2" placeholder="Describe your most recent employment experience"></textarea>
+			<br>
+	
+	<p>	<input type="text" size="50" id="txtExp3" placeholder="Enter your most recent employment experience: Date"/>
+	<p>	<textarea rows="2" cols="100" id="txtName3" placeholder="Describe your most recent employment experience"></textarea>
+			<br>
+	
+	<p>	<input type="text" size="50" id="txtExp4" placeholder="Enter your most recent employment experience: Date"/>
+	<p>	<textarea rows="2" cols="100" id="txtName4" placeholder="Describe your most recent employment experience"></textarea>
+			<br>
+	
+	<p>	<textarea rows="2" cols="100" id="txtRef" placeholder="Enter your details for references"></textarea>
+	</div>
+	<p>
+		<input type="button" value="Create Resume" name="btnCheckForm" onclick=myResume()>
+	</p>
+	
+</form>
+
+
+
+</body>
+
+
+</html>

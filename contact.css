@@ -1,0 +1,82 @@
+h2{color:rgba(173,73,13,1.00); }
+p {
+	font-size: 22px; 
+	font-style:oblique;
+	}
+#email {
+	color: #fff3e6;
+	text-decoration: none;
+	}
+#email:hover{
+	color: rgba(173,73,13,1.00);
+	font-size: 36px;
+	}
+
+.p1{
+	font-size: 28px;
+	color: #fff3e6;}
+	
+#contact_form {
+	font-size: 1.5em;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	line-height: 1.5;
+	}
+.input {
+	border: rgba(173,73,13,1.00) solid 2px;
+	width: 400px;
+	border-radius: 10px;
+	padding-left: 10px;
+	box-shadow:2px 2px 5px #fad1b7;
+	color: rgba(2,69,14,1.00);
+	font-size: 16px;
+	}
+#submit_button {
+	background-color: #1a1a00;;
+	color: #fff3e6;
+	font-size: 20px;
+	width: 200px;
+	border-radius: 5px;
+	}
+.container{ display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+	line-height: 150%;
+	padding-bottom: 2%;
+	margin-top: 5%;}
+.map {margin-right:10%;
+	  width: 50%;
+	  float: right;
+
+}
+@media (max-width:1366px){ 
+.main{width: 30%;}
+.map{
+margin-left:15%;
+}
+#submit_button {font-size: 18px;
+	width: 150px;}
+}
+
+@media (max-width:1366px){
+	#submit_button {font-size: 14px;
+	width: 100px;}
+	 }
+	 
+@media (max-width:1024px){ 
+#submit_button {font-size: 12px;
+	width: 80px;}
+.container{display:inline-block;
+margin-left:5%;
+}
+.map {float:right;}
+#contact_form {
+	font-size: 1em;}
+}
+@media (max-width:768px){
+	
+		}	 
+@media (max-width:480px){
+	.input {width: 300px;}
+	.map {display: none;}
+	}

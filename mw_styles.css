@@ -1,0 +1,98 @@
+﻿/*
+   New Perspectives on HTML and CSS
+   Tutorial 3
+   Case Problem 2
+
+   Mountain Wheels Text and Color Style
+   Author: Oksana Feterovskaya
+   Date:   06/07/2016
+
+   Filename:         mw_layout.css
+   Supporting Files: none
+
+*/
+
+
+body {
+	font: Tahoma, Geneva, sans-serif;
+	
+	}
+	/*change size and space letter in the title*/
+#articleheader {
+	font-size: 18px;
+	font-weight: normal; /*remove bold from the title*/
+	letter-spacing: 7px;
+	text-align: center;
+	}
+	/*add background color and spave between lines*/
+nav {
+	background: rgb(125,120,89);
+	line-height: 3em;
+	
+	}
+nav ul{ 
+	list-style-type: none;
+	  }
+nav ul li{
+	color: white;
+	color: rgba(255, 255, 255 0.5);
+	text-decoration: none; 
+	}
+nav ul a:link {
+	text-decoration: none;/*remove underline from the links*/
+	}
+	/*when hover, change color and add image of wheeler*/
+nav ul li:hover {
+	background: rgb(131,121,36);
+	list-style-image:url('wheelmarker.png');
+	
+	}
+nav ul li a:hover {
+	color: yellow;
+	color: 	hsl(0, 0%, 100%);
+	}
+
+#leftsection > p{
+	font-size:22px;
+	}
+
+#leftsection > p:first-of-type:first-line{	
+	text-transform:uppercase;	
+	}/*when open in Chrome this style down't work. It works only in Firefox. However text-variant: small caps works in both browsers.*/
+	
+blockquote{
+	background: rgb(131,121,36);
+	color: white;
+	font-size: 16px;
+	font-family: "Comic Sans MS", Times, cursive;
+	}
+/*add double quotation marks before and after the text*/
+blockquote p::before {
+    content: open-quote;
+}
+blockquote p::after {
+    content: close-quote;
+}
+#rightsection h1{
+	font-size: 22px;
+	letter-spacing: 3px;
+	font-weight: normal;
+	text-align: center;
+	}
+#rightsection h2{
+	font-size: 18px;
+	text-align:right;
+	font-weight: normal;
+	}
+#rightsection p {
+	color: gray;
+	font-size:14px;
+	text-align:justify;
+	}
+	
+address{
+	font-size: 16px;
+	font-style: normal;
+	text-align:center;
+	}
+<!--The End-->

@@ -1,0 +1,43 @@
+
+.right img{padding-top: 2%;
+	align: right;
+	max-width: 100%;
+	height: auto;}
+
+.right{text-transform: uppercase;
+	text-shadow:5px 5px 10px rgba(173,73,13,1.00);
+	font-size:28px;
+	padding: 5%;
+	color:	#d2d22d;
+	margin-top: 2%;
+	}
+
+div a:active {
+    text-decoration: underline;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 10%;}
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 10%;}
+}
+
+@media (max-width:1280px){
+	.right{padding: 10%;
+		   font-size:22px;}
+	.right img{max-width: 50%;
+	margin-top:10%;}
+	}
+
+@media (max-width:768px){
+.right{font-size:18px;}
+.right img{width: 50%;
+	margin-top:20%;}
+}
+
+@media (max-width:768px){
+	.right img {display: none;}}

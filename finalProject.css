@@ -1,0 +1,19 @@
+body {
+  	width:100%;
+	background-color:rgb(230, 247, 255);
+}
+.header{
+	 
+	margin-top: 1%;
+	position: static;
+}
+.right{
+	 
+	float: right;
+	width: 50%;
+	
+}
+.left{	width:50%;
+	float: left;
+	 
+}
